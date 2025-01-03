@@ -2,8 +2,11 @@
 a Fruit Ninja inspired text-based Dragonfly game engine in C++, with real-time mouse control fruit slicing mechanics. 
 
 Features includes:
-·      Real-time mouse control fruit slicing mechanics, bomb decoy feature, customized audio, and art assets.                          
+
+·      Real-time mouse control fruit slicing mechanics, bomb decoy feature, customized audio, and art assets.      
+
 ·      Installed Save Load functionality to preserve game state, including object positions, velocities, and scores. 
+
 ·      Multiplayer mode, supporting 2+ players to participate simultaneously for a more engaging experience, including network messaging system, enabling real-time communication between multiple players.  
 
 ## Project Overview
@@ -28,22 +31,24 @@ This project adds features to the networked version of **Fruit Ninjas** to handl
 - **Compiler:** 
   - GCC for Linux
   - Clang or XCode for Mac
-  - Visual Studio for Windows
+  - Visual Studio 2022 for Windows
 
 ## Compilation Instructions
 - **Navigate to the project directory**
 cd fruit-ninjas-latency
 
-OR Window (Visual Studio): navigate to vs-2022-fruit-client and vs-2022-fruit-server
+OR Window (Visual Studio 2022): navigate to vs-2022-fruit-client and vs-2022-fruit-server
 
 - **Compile**
-Windows (Visual Studio): Use the provided fruit-client.sln and fruit-server.sln files to open the project and build it.
+Windows (Visual Studio 2022): Use the provided fruit-client.sln and fruit-server.sln files to open the project and build the server .exe and client .exe files.
 
 ## Running the Game 
-1. Run server .sln
-2. Run at least 2 client .sln files
+1. Run server .exe
+2. Run at least 2 client .exe files
 3. Enter server host name "localhost" for each connecting clients
 4. Game start after at least 2 players connected to server
+   
+![FruitNinja_run](https://github.com/user-attachments/assets/b100dfd0-cbb9-4260-a8ca-12b68bee8681)
 
 ## Customization
 The game is set to DELAY of 15 ticks (495 ms). To change the DELAY of the game, navigate to util.h to change the value of DELAY, in ticks. 1 tick = 33ms
