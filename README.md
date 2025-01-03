@@ -56,4 +56,4 @@ The game is set to DELAY of 15 ticks (495 ms). To change the DELAY of the game, 
 Player performance (scores) and ping latency data are logged to a text file located in the game directory.
 
 ## Authorship  
-The dragonfly folder and SFML-2.6 folder are from https://dragonfly.wpi.edu. The Dragonfly engine, the sounds, and most of the sprites are made by professor Mark ClayPool. Other programming files, which enabling the functions, are developed by me.  
+The dragonfly folder and SFML-2.6 folder are from https://dragonfly.wpi.edu. The Dragonfly engine, the sounds, and most of the sprites are made by professor Mark ClayPool. Other programming files, which enabling the functions, are developed by me for my project in the Multiplayer Network Games class.
